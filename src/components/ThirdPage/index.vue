@@ -10,7 +10,7 @@
       <span class="value"> {{ imgCount }} </span>
       是图片&nbsp; 其中有
       <span class="value"> {{ voiceCount }} </span>
-      是语音
+      是视频
     </div>
     <div class="c">
       <div v-for="(count, word, index) in loveWord" :key="index">
